@@ -164,3 +164,14 @@ test.c:503:5: error: 'main' defined but not used [-Werror=unused-function]
      ^~~~
 cc1.exe: all warnings being treated as errors
 61bde9f
+sá.,  3 de may. de 2025 18:25:04: 
+ treemap.c | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+Compilation failed
+In file included from test.c:4:0:
+treemap.c: In function 'upperBound':
+treemap.c:159:15: error: unused variable 'ub_node' [-Werror=unused-variable]
+     TreeNode *ub_node = NULL;
+               ^~~~~~~
+cc1.exe: all warnings being treated as errors
+08bd987
