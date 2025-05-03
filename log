@@ -60,3 +60,9 @@ treemap.c:86:24: error: 'TreeMap {aka struct TreeMap}' has no member named 'righ
                         ^~
 cc1.exe: all warnings being treated as errors
 3b7e78f
+sá.,  3 de may. de 2025 18:08:48: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  11|6
+total_score: 15/70
+afdc87f
